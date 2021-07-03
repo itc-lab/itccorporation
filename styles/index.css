@@ -1,0 +1,384 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+.gitter-open-chat-button {
+  text-transform: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contact_hr {
+  background-color: #07318f;
+  border: 0 none;
+  width: 94%;
+  max-width: 680px;
+  height: 1px;
+}
+
+@font-face {
+  font-family: 'SourceHanSansJP-Regular';
+  src: url('/uploads/Source_Han_Sans_JP_Regular_c91c097ff6.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'SourceHanSansJP-Medium';
+  src: url('/uploads/Source_Han_Sans_JP_Medium_927cee028d.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'SourceHanSansJP-Bold';
+  src: url('/uploads/Source_Han_Sans_JP_Bold_61c94e11dc.woff2') format('woff2');
+}
+
+.font-regular {
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+}
+
+.font-medium {
+  font-family: 'SourceHanSansJP-Medium', sans-serif;
+}
+
+.font-bold {
+  font-family: 'SourceHanSansJP-Bold', sans-serif;
+}
+
+.tham-inner {
+  height: 2px !important;
+}
+
+.tham-inner::before {
+  height: 2px !important;
+}
+
+.tham-inner::after {
+  height: 2px !important;
+}
+
+.navi_link_string {
+  font-family: 'SourceHanSansJP-Bold', sans-serif;
+  font-size: 18px;
+}
+
+.whatsnew-tr {
+  display: table;
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-bottom: solid 1px #d0d0d0;
+}
+
+.whatsnew-th {
+  display: table-cell;
+  font-family: 'SourceHanSansJP-Medium', sans-serif;
+  font-size: 16px;
+  color: #073190;
+  width: 160px;
+  text-align: right;
+  vertical-align: middle;
+  padding-right: 40px;
+  white-space: nowrap;
+}
+
+.whatsnew-td {
+  display: table-cell;
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: black;
+  white-space: nowrap;
+}
+
+.about-tr {
+  display: table;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-bottom: solid 1px #07318f;
+}
+
+.about-th {
+  display: table-cell;
+  font-family: 'SourceHanSansJP-Medium', sans-serif;
+  font-size: 16px;
+  color: #073190;
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+  padding-right: 40px;
+  white-space: nowrap;
+}
+
+.about-td {
+  display: table-cell;
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: black;
+  white-space: nowrap;
+}
+
+.about-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.qrcode {
+  margin-left: 100px;
+}
+
+.about-icon-desc {
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-size: 16px;
+}
+
+.poweredby {
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+}
+
+.top_name_jp {
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-size: min(24px, 2vw);
+  white-space: nowrap;
+  left: 0px;
+  top: 80px;
+  position: relative;
+  color: white;
+}
+
+.top_name_en {
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-size: min(100px, 8vw);
+  white-space: nowrap;
+  left: 0px;
+  top: 60px;
+  position: relative;
+  color: white;
+}
+
+.top_desc {
+  font-family: 'SourceHanSansJP-Bold', sans-serif;
+  font-size: min(24px, 2vw);
+  white-space: nowrap;
+  left: 0px;
+  top: 80px;
+  position: relative;
+  color: white;
+  border-left: solid 2px;
+}
+
+.top_next_js {
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-size: 13px;
+  white-space: nowrap;
+  top: 37vw;
+  text-align: right;
+  position: relative;
+  color: white;
+}
+
+.about_title_jp {
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-size: 1vw;
+  top: 2.2vw;
+  white-space: nowrap;
+  position: relative;
+  color: white;
+}
+
+.about_title_en {
+  font-family: 'SourceHanSansJP-Medium', sans-serif;
+  font-size: 3vw;
+  top: 1.4vw;
+  white-space: nowrap;
+  position: relative;
+  color: white;
+}
+
+.contact_title_jp {
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-size: 1vw;
+  top: 2.2vw;
+  white-space: nowrap;
+  position: relative;
+  color: white;
+}
+
+.contact_title_en {
+  font-family: 'SourceHanSansJP-Medium', sans-serif;
+  font-size: 3vw;
+  top: 1.4vw;
+  white-space: nowrap;
+  position: relative;
+  color: white;
+}
+
+.contactFormHeader {
+  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 0 22px;
+  white-space: nowrap;
+}
+
+.topLogo {
+  width: 96px;
+}
+
+.bottomLogo {
+  width: 96px;
+}
+
+@media (max-width: theme('screens.md')) {
+  /*@media (max-width: 750px) {*/
+
+  .contact_hr {
+    height: 1px;
+  }
+
+  .top_name_jp {
+    font-size: 18px;
+    left: 0;
+    top: 30px;
+    position: relative;
+  }
+
+  .top_name_en {
+    font-size: 12vw;
+    line-height: 11vw;
+    left: 0;
+    top: 9vw;
+    position: relative;
+  }
+
+  .top_desc {
+    font-size: 4vw;
+    left: 0px;
+    top: 80px;
+    position: relative;
+  }
+
+  .top_next_js {
+    font-size: 2vw;
+    white-space: nowrap;
+    text-align: right;
+    position: relative;
+    top: 110vw;
+  }
+
+  .about_title_jp {
+    font-size: 3vw;
+    top: 4.5vw;
+    position: relative;
+  }
+
+  .about_title_en {
+    font-size: 10vw;
+    top: 1.4vw;
+    position: relative;
+  }
+
+  .contact_title_jp {
+    font-size: 3vw;
+    top: 4.5vw;
+    position: relative;
+  }
+
+  .contact_title_en {
+    font-size: 10vw;
+    top: 1.4vw;
+    position: relative;
+  }
+
+  .topLogo {
+    width: 76px;
+  }
+
+  .bottomLogo {
+    width: 120px;
+  }
+
+  .whatsnew-tr {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+
+  .whatsnew-th {
+    display: block;
+    font-size: 18px;
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .whatsnew-td {
+    display: block;
+    font-size: 18px;
+    padding-left: 0px;
+    text-align: left;
+    white-space: normal;
+  }
+
+  .contactFormHeader {
+    font-size: 15px;
+  }
+
+  .about-tr {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+  }
+
+  .about-th {
+    display: block;
+    font-size: 17px;
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .about-td {
+    display: block;
+    font-size: 17px;
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .about-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .qrcode {
+    margin-right: 5px;
+  }
+
+  .about-icon-desc {
+    font-size: 12px;
+  }
+
+  .br::after {
+    content: '\A';
+    white-space: pre;
+  }
+}
+
+@media (min-width: theme('screens.md')) {
+  .container {
+    max-width: min(1140px, calc(100% - 60px));
+  }
+}
