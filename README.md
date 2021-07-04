@@ -1,4 +1,4 @@
-# ITC Engineering Blog
+# Corporate Website Powered by Next.js
 
 ![itccorporation](https://user-images.githubusercontent.com/76575923/124353217-2adbd600-dc40-11eb-9cd0-3d346b1c5ae4.jpg)
 
