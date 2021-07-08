@@ -21,33 +21,21 @@ body {
   height: 1px;
 }
 
-@font-face {
-  font-family: 'SourceHanSansJP-Regular';
-  src: url('/uploads/Source_Han_Sans_JP_Regular_c91c097ff6.woff2')
-    format('woff2');
-}
-
-@font-face {
-  font-family: 'SourceHanSansJP-Medium';
-  src: url('/uploads/Source_Han_Sans_JP_Medium_927cee028d.woff2')
-    format('woff2');
-}
-
-@font-face {
-  font-family: 'SourceHanSansJP-Bold';
-  src: url('/uploads/Source_Han_Sans_JP_Bold_61c94e11dc.woff2') format('woff2');
-}
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjp.css');
 
 .font-regular {
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
 }
 
 .font-medium {
-  font-family: 'SourceHanSansJP-Medium', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
 }
 
 .font-bold {
-  font-family: 'SourceHanSansJP-Bold', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
 }
 
 .tham-inner {
@@ -63,7 +51,8 @@ body {
 }
 
 .navi_link_string {
-  font-family: 'SourceHanSansJP-Bold', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
   font-size: 18px;
 }
 
@@ -79,7 +68,8 @@ body {
 
 .whatsnew-th {
   display: table-cell;
-  font-family: 'SourceHanSansJP-Medium', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   color: #073190;
   width: 160px;
@@ -91,7 +81,8 @@ body {
 
 .whatsnew-td {
   display: table-cell;
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   text-align: left;
   color: black;
@@ -110,7 +101,8 @@ body {
 
 .about-th {
   display: table-cell;
-  font-family: 'SourceHanSansJP-Medium', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   color: #073190;
   width: 160px;
@@ -122,11 +114,18 @@ body {
 
 .about-td {
   display: table-cell;
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   text-align: left;
   color: black;
   white-space: nowrap;
+}
+
+.about-icon-desc {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .about-box {
@@ -139,17 +138,14 @@ body {
   margin-left: 100px;
 }
 
-.about-icon-desc {
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
-  font-size: 16px;
-}
-
 .poweredby {
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
 }
 
 .top_name_jp {
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   font-size: min(24px, 2vw);
   white-space: nowrap;
   left: 0px;
@@ -159,7 +155,8 @@ body {
 }
 
 .top_name_en {
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   font-size: min(100px, 8vw);
   white-space: nowrap;
   left: 0px;
@@ -169,7 +166,8 @@ body {
 }
 
 .top_desc {
-  font-family: 'SourceHanSansJP-Bold', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
   font-size: min(24px, 2vw);
   white-space: nowrap;
   left: 0px;
@@ -180,7 +178,8 @@ body {
 }
 
 .top_next_js {
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   font-size: 13px;
   white-space: nowrap;
   top: 37vw;
@@ -190,7 +189,8 @@ body {
 }
 
 .about_title_jp {
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   font-size: 1vw;
   top: 2.2vw;
   white-space: nowrap;
@@ -199,7 +199,8 @@ body {
 }
 
 .about_title_en {
-  font-family: 'SourceHanSansJP-Medium', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
   font-size: 3vw;
   top: 1.4vw;
   white-space: nowrap;
@@ -208,7 +209,8 @@ body {
 }
 
 .contact_title_jp {
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   font-size: 1vw;
   top: 2.2vw;
   white-space: nowrap;
@@ -217,7 +219,8 @@ body {
 }
 
 .contact_title_en {
-  font-family: 'SourceHanSansJP-Medium', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
   font-size: 3vw;
   top: 1.4vw;
   white-space: nowrap;
@@ -226,7 +229,8 @@ body {
 }
 
 .contactFormHeader {
-  font-family: 'SourceHanSansJP-Regular', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   font-size: 18px;
   text-align: center;
   padding: 0 22px;
