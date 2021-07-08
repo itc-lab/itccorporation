@@ -14,6 +14,7 @@ import {
   IndexContent,
   SeoOpenGraphs,
   SeoBreadcrumbJsonLd,
+  Twitter,
 } from 'graphql/types/types';
 import { SeoContext } from './_app';
 
@@ -27,6 +28,7 @@ interface Props {
   availables: Array<Available>;
   openGraphs: Array<SeoOpenGraphs>;
   breadcrumbJsonLds: Array<SeoBreadcrumbJsonLd>;
+  twitter: Twitter;
 }
 
 const About: NextPage<Props> = ({
@@ -34,11 +36,13 @@ const About: NextPage<Props> = ({
   availables,
   openGraphs,
   breadcrumbJsonLds,
+  twitter,
 }) => {
   const content = contents[0];
   const seoData: SeoData = {
     openGraphs: openGraphs[0],
     breadcrumbJsonLds,
+    twitter,
   };
   return (
     <SeoContext.Provider value={seoData}>

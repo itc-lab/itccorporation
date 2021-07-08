@@ -20,6 +20,7 @@ import {
   IndexContent,
   SeoOpenGraphs,
   SeoBreadcrumbJsonLd,
+  Twitter,
 } from 'graphql/types/types';
 import { SeoContext } from './_app';
 import axios, { AxiosRequestConfig } from 'axios';
@@ -34,6 +35,7 @@ interface Props {
   contents: Array<IndexContent>;
   openGraphs: Array<SeoOpenGraphs>;
   breadcrumbJsonLds: Array<SeoBreadcrumbJsonLd>;
+  twitter: Twitter;
 }
 
 interface State {
@@ -56,11 +58,13 @@ const Contacts: NextPage<Props> = ({
   contents,
   openGraphs,
   breadcrumbJsonLds,
+  twitter,
 }) => {
   const content = contents[0];
   const seoData: SeoData = {
     openGraphs: openGraphs[0],
     breadcrumbJsonLds,
+    twitter,
   };
 
   const [confirmOpen, setConfirmOpen] = useState<boolean>(false);

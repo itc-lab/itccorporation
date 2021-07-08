@@ -87,6 +87,16 @@ type: Collection
 | name       | Text   |
 | item       | Text   |
 
+### Twitter
+
+type: Single
+
+| field name | type |
+| ---------- | ---- |
+| handle     | Text |
+| site       | Text |
+| cardtype   | Text |
+
 ## Getting started
 
 You will need to deploy the `frontend` and `backend` projects separately. Here are the docs to deploy each one:

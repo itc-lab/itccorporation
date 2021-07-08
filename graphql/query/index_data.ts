@@ -39,6 +39,11 @@ const INDEX_DATA = gql`
       name
       item
     }
+    twitter {
+      handle
+      site
+      cardtype
+    }
   }
 `;
 

@@ -121,7 +121,13 @@ export interface SeoBreadcrumbJsonLd {
   name: string;
   item: string;
 }
+export interface Twitter {
+  handle: string;
+  site: string;
+  cardtype: string;
+}
 export interface SeoData {
   openGraphs: SeoOpenGraphs;
   breadcrumbJsonLds: Array<SeoBreadcrumbJsonLd>;
+  twitter: Twitter;
 }
