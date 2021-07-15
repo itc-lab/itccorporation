@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build && next export && next-sitemap --config sitemap.config.js",
     "start": "next start",
     "eslint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix",
     "prettier:fix": "prettier --write ."
@@ -41,6 +41,7 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-react": "^7.23.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "next-sitemap": "^1.6.140",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",

@@ -21,7 +21,7 @@ body {
   height: 1px;
 }
 
-@import url('https://fonts.googleapis.com/earlyaccess/notosansjp.css');
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjp.css?display=swap');
 
 .font-regular {
   font-family: 'Noto Sans JP', sans-serif;

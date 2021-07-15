@@ -20,6 +20,9 @@ export const SEO: FunctionComponent = () => {
   return (
     <>
       <NextSeo
+        title={openGraphs.title}
+        description={openGraphs.description}
+        canonical={openGraphs.url}
         openGraph={{
           type: openGraphs.type as string,
           url: openGraphs.url as string,

@@ -93,6 +93,7 @@ const About: NextPage<Props> = ({
                       className="item border rounded-md md:w-60 md:h-40 w-38 h-32 md:m-6 md:p-4 m-2 p-2  flex flex-col justify-center items-center bg-white">
                       <div>
                         <img
+                          loading="lazy"
                           className="md:w-60 md:h-32 w-40 h-24 p-1 object-contain"
                           src={value.logo.url}></img>
                       </div>

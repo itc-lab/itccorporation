@@ -9,6 +9,7 @@ const PoweredBy: FunctionComponent = () => {
         <span>
           <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
             <img
+              loading="lazy"
               src="/uploads/NEXT_js_logo_1d96b78e27.svg"
               alt="NEXT.js"
               width="110px"
@@ -73,6 +74,7 @@ const PoweredBy: FunctionComponent = () => {
         <span>
           <a href="https://jamstack.org/" target="_blank" rel="noreferrer">
             <img
+              loading="lazy"
               src="/uploads/jamstack_logo_97b45f051f.svg"
               alt="jamstack"
               width="100px"

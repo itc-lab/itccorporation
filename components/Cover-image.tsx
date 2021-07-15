@@ -13,7 +13,12 @@ const CoverImage: FunctionComponent<Props> = ({ title, url, slug, url_sp }) => {
     <div>
       <picture>
         <source media="(max-width: 768px)" srcSet={url_sp} />
-        <img className="mx-auto" alt={`Cover Image for ${title}`} src={url} />
+        <img
+          loading="lazy"
+          className="mx-auto"
+          alt={`Cover Image for ${title}`}
+          src={url}
+        />
       </picture>
     </div>
   );

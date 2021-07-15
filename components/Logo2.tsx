@@ -4,6 +4,7 @@ const Logo2: FunctionComponent = () => {
   return (
     <div style={{ width: 'auto' }}>
       <img
+        loading="lazy"
         className="bottomLogo"
         src="/uploads/ITC_logo1_bf70fb9e1e.svg"
         alt="ITC logo"
